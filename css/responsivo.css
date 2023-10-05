@@ -1,0 +1,107 @@
+@media screen and (max-width: 1020px) {
+/*Geral  */
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}    
+    .menu, .button_contato{
+        display: none;
+}
+    #topo i{
+        display: none;
+}
+    h2.titulo{
+        font-size: 1.5em;
+        line-height: 1.5;
+}
+/* Header */
+    header.interface_page .interface{
+        padding: 40px 4%;
+        z-index: 2;
+}
+    header.interface, .logo a img{
+        width: 65%;
+}
+/* Mobile */
+    .mobile.list{
+        width: 50%;
+}
+/* Main*/
+    section.topo .interface{
+        padding: 40px; 
+}
+    section.topo .txt-topo-site h1{
+        font-size: 1.5em;
+        line-height: 28px;
+        text-align: center;
+}
+    section.topo .txt-topo-site p{
+        line-height: 1.4;
+        font-size: 1.3em;
+        text-align: justify;
+        word-break: break-all;
+}
+    section.img-topo-site, .img_coding{
+        width: 350px;
+}
+/* Especialidades*/
+    section.especialidades .interface{
+        padding: 40px 4%;
+}
+    section.especialidades .flex{
+        gap: 30px;
+        padding: 1rem;
+}
+    section.especialidades .box_especialidades{
+        width: 330px;
+}
+    section.especialidades .especialidades-box, h3{
+        font-size: 1.8em;
+        padding: 1.5rem 0;
+}
+    section.especialidades .especialidades-box, p{
+        font-size: 1.3em;
+        word-break: break-all;
+ }
+/* Sobre */
+    section.sobre .interface{
+        padding: 40px 4%;
+}
+    section.sobre .flex{
+        gap: 30px;
+}
+    section.sobre .txt-sobre h2{
+        line-height: 1.4;
+        text-align: center;
+}
+    section.sobre .txt-sobre p{
+        font-size: 1.3em;
+        word-break: break-all;
+        margin: 1.3rem;
+}
+    .btn-social, i{
+        text-align: center;
+        font-size: 1.4rem;
+        padding:  1rem;
+}
+    form input, textarea{
+        font-size: 1.3em;
+}
+/* footer */
+    footer .interface_botton{
+        padding: 40px 4%;
+}
+    footer .footer_line p i{
+        color: #6BD2E3;
+        font-size: 1.6rem;
+}
+    footer .footer_line p a{
+        color: #fff;
+        font-size: 1.3rem;
+        
+}
+footer.interface_botton .logo_code_footer{
+        width: 100%;
+}
+}
