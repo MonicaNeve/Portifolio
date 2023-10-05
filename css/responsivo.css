@@ -21,7 +21,7 @@
         z-index: 2;
 }
     header.interface, .logo a img{
-        width: 65%;
+        width: 85%;
 }
 /* Mobile */
     .mobile.list{
@@ -37,10 +37,10 @@
         text-align: center;
 }
     section.topo .txt-topo-site p{
-        line-height: 1.4;
         font-size: 1.3em;
         text-align: justify;
         word-break: break-all;
+        letter-spacing: 1px;
 }
     section.img-topo-site, .img_coding{
         width: 350px;

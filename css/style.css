@@ -67,7 +67,7 @@ header.interface_page .interface{
     padding: 40px 2%; 
 }
 header.interface, .logo a img{
-    width: 75%;
+    width: 85%;
 }
 header.interface, .logo a img:hover{
     transform: scale(1.05);
@@ -368,7 +368,7 @@ footer .footer_line p a{
     color: #fff;
 }
 footer .logo .logo_code_footer{
-    width: 70%;
+    width: 80%;
 }
 @keyframes coding{
     0%{
