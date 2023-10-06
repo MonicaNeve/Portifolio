@@ -103,5 +103,7 @@
 }
 footer.interface_botton .logo_code_footer{
         width: 100%;
+        display: block;
+        margin: auto;
 }
 }
